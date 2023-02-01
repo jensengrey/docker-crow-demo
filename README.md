@@ -1,6 +1,6 @@
 # docker-crow-demo
 
-C++ microservice running in a container
+C++ microservice using the [Crow Framework](https://crowcpp.org/master/) running in a container
 
 # build
 
@@ -53,4 +53,4 @@ You can run the binary locally as well
 PORT=4567 ./hello-crow
 ```
 
-See the code ofr hte availabe 
+See the [code](hello-crow.cpp) for the available endpoints.
