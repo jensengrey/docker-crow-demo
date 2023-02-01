@@ -1,0 +1,5 @@
+FROM ubuntu:22.04
+
+WORKDIR /hello-crow
+COPY hello-crow hello-crow
+ENTRYPOINT ["./hello-crow"]
